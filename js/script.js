@@ -139,7 +139,7 @@ let script = {
                         storage.player.Name = input;
                         return true;
                     },
-                    "Warning": "名字不能为空。"
+                    "Warning": "名字不能为空!"
                 }
             },
             "scene classroom with fadeIn",
