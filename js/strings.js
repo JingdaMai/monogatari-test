@@ -204,6 +204,68 @@ const strings = {
 		"Windowed": "Fenêtré"
 	},
 
+	"简体中文": {
+		"AdvanceHelp": "要继续游戏，请按空格键或单击。",
+		"Audio": "声音",
+		"AutoPlay": "自动播放",
+		"AutoPlaySpeed": "自动播放速度",
+
+		"Back": "返回",
+		"BackButton": "返回.",
+
+		"Cancel": "取消",
+		"Close": "关闭",
+		"Confirm": "你想退出吗？",
+
+		"FullScreen": "全屏",
+
+		"Help": "帮助",
+		"Hide": "隐藏",
+		"HideButton": "隐藏文本.",
+
+		"iOSAudioWarning": "iOS不支持音频设置。",
+
+		"Language": "语言",
+		"Load": "载入",
+		"LoadAutoSaveSlots": "自动保存游戏",
+		"LoadButton": "打开加载窗口。",
+		"Loading": "载入中",
+		"LoadingMessage": "请等待资源加载。",
+		"LoadSlots": "已保存的游戏",
+		"LocalStorageWarning": "本地存储在此浏览器中不可用。",
+
+		"Music": "音乐音量",
+
+		"NoSavedGames": "没有保存的游戏。",
+		"NoAutoSavedGames": "没有自动保存的游戏。",
+
+		"Overwrite": "覆盖",
+
+		"QuickButtons": "快速菜单选项",
+		"Quit": "退出",
+		"QuitButton": "退出游戏。",
+
+		"Resolution": "分辨率",
+
+		"Save": "保存",
+		"SaveButon": "打开保存窗口。",
+		"SaveInSlot": "保存在这个位置",
+		"Settings": "设置",
+		"SettingsButton": "打开设置窗口",
+		"Show": "显示",
+		"SlotDeletion": "您确定要删除此存档？",
+		"SlotOverwrite": "您确定要覆盖此存档？",
+		"Sound": "音效音量",
+		"Start": "开始",
+		"Stop": "停止",
+
+		"TextSpeed": "文本速度",
+
+		"Voice": "语言音量",
+
+		"Windowed": "窗口化"
+	},
+
 	"日本語": {
 		"AdvanceHelp": "ゲームを進めるためには、スペースキーを押すかクリックします。",
 		"Audio": "オーディオ",
@@ -265,6 +327,7 @@ const strings = {
 
 		"Windowed": "窓"
 	},
+	
 	"Nederlands": {
 		"AdvanceHelp": "Gebruik de spatiebalk of linker muisknop om te spelen.",
 		"Audio": "Audio",
