@@ -97,7 +97,7 @@ let script = {
 
             {
                 "Choice": {
-                    "Dialog": "h Have you already read some documentation?",
+                    "Dialog": "m Have you already read some documentation?",
                     "Yes": {
                         "Text": "Yes",
                         "Do": "jump Yes"
@@ -129,12 +129,24 @@ let script = {
         ]
     },
     "简体中文": {
-        "Start": [
+        "Start": [{
+                "Input": {
+                    "Text": "您的名字是?",
+                    "Validation": function(input) {
+                        return input.trim().length > 0;
+                    },
+                    "Save": function(input) {
+                        storage.player.Name = input;
+                        return true;
+                    },
+                    "Warning": "名字不能为空。"
+                }
+            },
             "scene classroom with fadeIn",
             "m 您好，{{player.Name}}欢迎来到我的测试游戏！",
             {
                 "Choice": {
-                    "Dialog": "h 您已经阅读过文档？",
+                    "Dialog": "m 您已经阅读过Monogatarid的文档？",
                     "Yes": {
                         "Text": "Yes",
                         "Do": "jump Yes"
